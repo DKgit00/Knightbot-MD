@@ -38,7 +38,7 @@ async function videoCommand(sock, chatId, message) {
             return;
         }
 
-        const apiUrl = `https://api.dreaded.site/api/ytdl/video?url=${encodeURIComponent(videoUrl)}`;
+        const apiUrl = `AIzaSyAWnkOPqNahwQbHwC9DOHLvaINs5R5BUZU`;
         
         const response = await fetch(apiUrl, {
             headers: {
