@@ -38,7 +38,7 @@ async function videoCommand(sock, chatId, message) {
             return;
         }
 
-        const apiUrl = `AIzaSyAWnkOPqNahwQbHwC9DOHLvaINs5R5BUZU`;
+        const apiUrl = `AIzaSyALpQ4RFOBL9VtyejwFkObt6E3T6WQC5XI`;
         
         const response = await fetch(apiUrl, {
             headers: {
